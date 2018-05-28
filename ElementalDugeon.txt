@@ -1,0 +1,41 @@
+Magic based system
+12 elementen
+
+--Light side--
+
+ - Fire
+ - Water
+ - Nature
+ - Light
+ - Wind
+ - Earth
+
+--Dark side--
+
+ - Electric
+ - Ice
+ - Poison
+ - Darkness
+ - Psychic
+ - Metal
+
+Levels of restrictions 
+
+High------------------ 
+Element Purist -- Focus on a specific element in both sides
+
+
+Medium----------------
+Light purist -- Focus on all light elements
+Dark Purist -- Focus on all dark elements
+
+
+Low-------------------
+All rounder -- Jack of all traids master of none
+
+
+
+
+Items are non scaling but instead set
+Items will have the same level of effect no matter the your current scaling
+
