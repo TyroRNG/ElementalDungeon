@@ -7,13 +7,64 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprites name="FloorLayout">
+      <sprite>sprites\TypeU</sprite>
+      <sprite>sprites\TypeD</sprite>
+      <sprite>sprites\TypeR</sprite>
+      <sprite>sprites\TypeL</sprite>
+      <sprite>sprites\TypeUD</sprite>
+      <sprite>sprites\TypeUR</sprite>
+      <sprite>sprites\TypeUL</sprite>
+      <sprite>sprites\TypeDR</sprite>
+      <sprite>sprites\TypeDL</sprite>
+      <sprite>sprites\TypeRL</sprite>
+      <sprite>sprites\TypeUDR</sprite>
+      <sprite>sprites\TypeUDL</sprite>
+      <sprite>sprites\TypeURL</sprite>
+      <sprite>sprites\TypeDRL</sprite>
+      <sprite>sprites\TypeUDRL</sprite>
+      <sprite>sprites\TypeNull</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="FloorGeneration">
+      <script>scripts\TestForRoom.gml</script>
+      <script>scripts\CreateRoom.gml</script>
+      <script>scripts\FloorGeneration.gml</script>
+      <script>scripts\CreateFloorPath.gml</script>
+      <script>scripts\AddSidePath.gml</script>
+      <script>scripts\TestIfSurrounded.gml</script>
+      <script>scripts\CreateConnectingRoom.gml</script>
+      <script>scripts\GiveRoomType.gml</script>
+      <script>scripts\SpawnRoom.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <objects name="Floor_Manager">
+      <object>objects\Floor_Manager</object>
+      <object>objects\TileTypeU</object>
+      <object>objects\TileTypeD</object>
+      <object>objects\TileTypeR</object>
+      <object>objects\TileTypeL</object>
+      <object>objects\TileTypeUD</object>
+      <object>objects\TileTypeUR</object>
+      <object>objects\TileTypeUL</object>
+      <object>objects\TileTypeDR</object>
+      <object>objects\TileTypeDL</object>
+      <object>objects\TileTypeRL</object>
+      <object>objects\TileTypeUDR</object>
+      <object>objects\TileTypeUDL</object>
+      <object>objects\TileTypeURL</object>
+      <object>objects\TileTypeDRL</object>
+      <object>objects\TileTypeUDRL</object>
+      <object>objects\TileTypeNull</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\TestRoom</room>
     <room>rooms\rm_cameratesting</room>
   </rooms>
   <help>
