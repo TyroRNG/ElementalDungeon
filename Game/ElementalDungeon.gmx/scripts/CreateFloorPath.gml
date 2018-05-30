@@ -28,6 +28,10 @@ for (d = 1; d < amountOfRooms; d++)
         else 
         {
             rooms = CreateConnectingRoom(rooms, d-1);
+            if (d == amountOfRooms-1)
+            {
+                rooms[d, 7] = true;
+            }
         }
     }
 }

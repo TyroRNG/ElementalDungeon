@@ -8,22 +8,58 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprites name="FloorLayout">
-      <sprite>sprites\TypeU</sprite>
-      <sprite>sprites\TypeD</sprite>
-      <sprite>sprites\TypeR</sprite>
-      <sprite>sprites\TypeL</sprite>
-      <sprite>sprites\TypeUD</sprite>
-      <sprite>sprites\TypeUR</sprite>
-      <sprite>sprites\TypeUL</sprite>
-      <sprite>sprites\TypeDR</sprite>
-      <sprite>sprites\TypeDL</sprite>
-      <sprite>sprites\TypeRL</sprite>
-      <sprite>sprites\TypeUDR</sprite>
-      <sprite>sprites\TypeUDL</sprite>
-      <sprite>sprites\TypeURL</sprite>
-      <sprite>sprites\TypeDRL</sprite>
-      <sprite>sprites\TypeUDRL</sprite>
       <sprite>sprites\TypeNull</sprite>
+      <sprites name="Normal">
+        <sprite>sprites\TypeU</sprite>
+        <sprite>sprites\TypeD</sprite>
+        <sprite>sprites\TypeR</sprite>
+        <sprite>sprites\TypeL</sprite>
+        <sprite>sprites\TypeUD</sprite>
+        <sprite>sprites\TypeUR</sprite>
+        <sprite>sprites\TypeUL</sprite>
+        <sprite>sprites\TypeDR</sprite>
+        <sprite>sprites\TypeDL</sprite>
+        <sprite>sprites\TypeRL</sprite>
+        <sprite>sprites\TypeUDR</sprite>
+        <sprite>sprites\TypeUDL</sprite>
+        <sprite>sprites\TypeURL</sprite>
+        <sprite>sprites\TypeDRL</sprite>
+        <sprite>sprites\TypeUDRL</sprite>
+      </sprites>
+      <sprites name="TypeO">
+        <sprite>sprites\TypeOU</sprite>
+        <sprite>sprites\TypeOD</sprite>
+        <sprite>sprites\TypeOR</sprite>
+        <sprite>sprites\TypeOL</sprite>
+        <sprite>sprites\TypeOUD</sprite>
+        <sprite>sprites\TypeOUR</sprite>
+        <sprite>sprites\TypeOUL</sprite>
+        <sprite>sprites\TypeODR</sprite>
+        <sprite>sprites\TypeODL</sprite>
+        <sprite>sprites\TypeORL</sprite>
+        <sprite>sprites\TypeOUDR</sprite>
+        <sprite>sprites\TypeOUDL</sprite>
+        <sprite>sprites\TypeOURL</sprite>
+        <sprite>sprites\TypeODRL</sprite>
+        <sprite>sprites\TypeOUDRL</sprite>
+      </sprites>
+      <sprites name="TypeE">
+        <sprite>sprites\TypeEU</sprite>
+        <sprite>sprites\TypeED</sprite>
+        <sprite>sprites\TypeER</sprite>
+        <sprite>sprites\TypeEL</sprite>
+        <sprite>sprites\TypeEUD</sprite>
+        <sprite>sprites\TypeEUR</sprite>
+        <sprite>sprites\TypeEUL</sprite>
+        <sprite>sprites\TypeEDR</sprite>
+        <sprite>sprites\TypeEDL</sprite>
+        <sprite>sprites\TypeERL</sprite>
+        <sprite>sprites\TypeEUDR</sprite>
+        <sprite>sprites\TypeEUDL</sprite>
+        <sprite>sprites\TypeEURL</sprite>
+        <sprite>sprites\TypeEDRL</sprite>
+        <sprite>sprites\TypeEUDRL</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -45,22 +81,58 @@
     <object>objects\obj_player</object>
     <objects name="Floor_Manager">
       <object>objects\Floor_Manager</object>
-      <object>objects\TileTypeU</object>
-      <object>objects\TileTypeD</object>
-      <object>objects\TileTypeR</object>
-      <object>objects\TileTypeL</object>
-      <object>objects\TileTypeUD</object>
-      <object>objects\TileTypeUR</object>
-      <object>objects\TileTypeUL</object>
-      <object>objects\TileTypeDR</object>
-      <object>objects\TileTypeDL</object>
-      <object>objects\TileTypeRL</object>
-      <object>objects\TileTypeUDR</object>
-      <object>objects\TileTypeUDL</object>
-      <object>objects\TileTypeURL</object>
-      <object>objects\TileTypeDRL</object>
-      <object>objects\TileTypeUDRL</object>
       <object>objects\TileTypeNull</object>
+      <objects name="NormalTiles">
+        <object>objects\TileTypeU</object>
+        <object>objects\TileTypeD</object>
+        <object>objects\TileTypeR</object>
+        <object>objects\TileTypeL</object>
+        <object>objects\TileTypeUD</object>
+        <object>objects\TileTypeUR</object>
+        <object>objects\TileTypeUL</object>
+        <object>objects\TileTypeDR</object>
+        <object>objects\TileTypeDL</object>
+        <object>objects\TileTypeRL</object>
+        <object>objects\TileTypeUDR</object>
+        <object>objects\TileTypeUDL</object>
+        <object>objects\TileTypeURL</object>
+        <object>objects\TileTypeDRL</object>
+        <object>objects\TileTypeUDRL</object>
+      </objects>
+      <objects name="TypeOTiles">
+        <object>objects\TileTypeOU</object>
+        <object>objects\TileTypeOD</object>
+        <object>objects\TileTypeOR</object>
+        <object>objects\TileTypeOL</object>
+        <object>objects\TileTypeOUD</object>
+        <object>objects\TileTypeOUR</object>
+        <object>objects\TileTypeOUL</object>
+        <object>objects\TileTypeODR</object>
+        <object>objects\TileTypeODL</object>
+        <object>objects\TileTypeORL</object>
+        <object>objects\TileTypeOUDR</object>
+        <object>objects\TileTypeOUDL</object>
+        <object>objects\TileTypeOURL</object>
+        <object>objects\TileTypeODRL</object>
+        <object>objects\TileTypeOUDRL</object>
+      </objects>
+      <objects name="TypeETiles">
+        <object>objects\TileTypeEU</object>
+        <object>objects\TileTypeED</object>
+        <object>objects\TileTypeER</object>
+        <object>objects\TileTypeEL</object>
+        <object>objects\TileTypeEUD</object>
+        <object>objects\TileTypeEUR</object>
+        <object>objects\TileTypeEUL</object>
+        <object>objects\TileTypeEDR</object>
+        <object>objects\TileTypeEDL</object>
+        <object>objects\TileTypeERL</object>
+        <object>objects\TileTypeEUDR</object>
+        <object>objects\TileTypeEUDL</object>
+        <object>objects\TileTypeEURL</object>
+        <object>objects\TileTypeEDRL</object>
+        <object>objects\TileTypeEUDRL</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
